@@ -3,7 +3,7 @@
 ## The following commands were run by us on the terminal to show the different types of attacks supported by Hashcat
 
 ### Dictionary Attack
-hashcat -m0 -a0 hashedPass.txt rockyou.txt —-show
+hashcat -m0 -a0 hashedPass.txt rockyou.txt --show
 
 ### Combination Attack
 hashcat -a1 -m0 hashed.txt wordlist1.txt wordlist2.txt
